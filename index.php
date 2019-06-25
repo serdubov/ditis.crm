@@ -13,6 +13,12 @@
     <title>Ditis CRM</title>
 </head>
 <body>
+<script>
+        (function(w,d,u){
+                var s=d.createElement('script');s.async=true;s.src=u+'?'+(Date.now()/60000|0);
+                var h=d.getElementsByTagName('script')[0];h.parentNode.insertBefore(s,h);
+        })(window,document,'https://cdn.bitrix24.ru/b1723557/crm/site_button/loader_3_yii7is.js');
+</script>
     <div class="container_sertificates">
         <div class="sertificate_page_close">
             <img id="modal_close" src="/img/icon/close.svg" alt="">
@@ -379,6 +385,7 @@
 
     <script src="/js/script.js"></script>
     <script src="/js/swiper.min.js"></script>
+    <script src="/send_form.js"></script>
 
     <!-- Initialize Swiper -->
     <script>
