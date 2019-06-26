@@ -2,7 +2,6 @@ $(document).ready(function(){
     $("input[name='phone']").mask("+7 (999) 999-99-99");
 
     $("#start_bitrix").click(function(){
-        console.log('ololo');
         $('.container_sertificates').addClass('container_sertificates-active');
         $('#bitrix').addClass('sertificate_img-active');
         $('.container_overall').addClass('container_overall-blur');

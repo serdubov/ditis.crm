@@ -490,8 +490,7 @@ h2{
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
-    line-height: 21px;
-    letter-spacing: 0.05em;
+    line-height: 20px;
     color: #2D2D2D;
     margin: 0;
 }
@@ -646,12 +645,15 @@ h2{
     display: flex;
     justify-content: center;
     align-items: center;
+    transition: all .5s cubic-bezier(0.77, 0, 0.175, 1);
+    transform: scale(2);
 }
 
 .container_sertificates-active{
     background: rgba(45, 45, 45, 0.4);
     opacity: 1;
     z-index: 120;
+    transform: scale(1);
 }
 
 .sertificate_page .sertificate_img{
@@ -659,6 +661,11 @@ h2{
     width: 100%;
     box-shadow: 0px 2px 40px 20px rgba(0, 123, 255, 0.5);
     display: none;
+    /* transition: all .5s cubic-bezier(0.77, 0, 0.175, 1); */
+}
+
+.sertificate_page .sertificate_img_bitrix{
+    max-width: 700px;
 }
 
 .sertificate_page .sertificate_img-active{
@@ -678,7 +685,7 @@ h2{
     width: 30px;
     height: 30px;
     position: fixed;
-    right: 15px;
+    right: 35px;
     top: 20px;
     background-color: #FFFFFF;
     display: flex;

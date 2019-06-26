@@ -24,7 +24,7 @@
             <img id="modal_close" src="/img/icon/close.svg" alt="">
         </div>
         <div class="sertificate_page">
-            <img class="sertificate_img" id="bitrix" src="/img/sertificate/BITRIX.png" alt="">
+            <img class="sertificate_img sertificate_img_bitrix" id="bitrix" src="/img/sertificate/BITRIX.png" alt="">
             <img class="sertificate_img" id="amo" src="/img/sertificate/AMO.png" alt="">
         </div>
     </div>
@@ -135,15 +135,17 @@
                 <h2>Внедряемые CRM</h2>
                 <div class="row no-gutters justify-content-around">
                     <div class="col-md-4 col-sm-8">
-                        <div class="crm_card">
-                            <div class="crm_card__icon">
-                                <img src="/img/bitrix24.png" alt="">
+                        <a href="https://www.bitrix24.ru/?p=5330675" target="_blank">
+                            <div class="crm_card">
+                                <div class="crm_card__icon">
+                                    <img src="/img/bitrix24.png" alt="">
+                                </div>
+                                <div class="crm_card__description">
+                                    Битрикс24.CRM - помогает продавать больше: берет под контроль все каналы
+                                    коммуникаций с клиентами, подсказывает, что делать и автоматизирует продажи.
+                                </div>
                             </div>
-                            <div class="crm_card__description">
-                                Битрикс24.CRM - помогает продавать больше: берет под контроль все каналы
-                                коммуникаций с клиентами, подсказывает, что делать и автоматизирует продажи.
-                            </div>
-                        </div>
+                        </a>
                     </div>
                     <div class="col-md-4 col-sm-8">
                         <div class="crm_card">
@@ -241,7 +243,7 @@
             </div>
         <div class="container_wrapper">
             <div class="container_content container_content-white" id="tariff">
-                <h2>Решения CRM</h2>
+                <h2>Задачи, которые мы помогаем решить</h2>
                 <div class="row no-gutters  justify-content-xl-start justify-content-center">
                     <div class="col-xl-6 col-lg-8 col-md-12">
                         <div class="solutions_wrapper">
@@ -250,7 +252,7 @@
                                     <img src="/img/icon/report.svg" alt="">
                                 </div>
                                 <h4>Порядок с потоком обращений клиентов</h4>
-                                <p><span>CRM подскажет</span> когда перезвонить, выставить счёт, принять деньги</p>
+                                <p><span>CRM подскажет</span> когда перезвонить, отправить коммерческое предложение, выставить счёт</p>
                             </div>
                         </div>
                     </div>
@@ -272,7 +274,7 @@
                                     <img src="/img/icon/execution.svg" alt="">
                                 </div>
                                 <h4>Системная работа с заявками</h4>
-                                <p><span>CRM поможет</span> перестать терять от 20% до 70% прибыли</p>
+                                <p><span>CRM поможет</span> перестать терять от 20% до 70% лидов, сделок и контактов</p>
                             </div>
                         </div>
                     </div>
@@ -283,7 +285,7 @@
                                     <img src="/img/icon/project.svg" alt="">
                                 </div>
                                 <h4>Управление задачами и проектами</h4>
-                                <p><span>CRM напомнит</span> сотрудникам о важных задачах</p>
+                                <p><span>CRM напомнит</span> сотрудникам о важных задачах и делях</p>
                             </div>
                         </div>
                     </div>
@@ -305,7 +307,7 @@
                                     <img src="/img/icon/backoffice.svg" alt="">
                                 </div>
                                 <h4>Бэк-офис компании</h4>
-                                <p><span>CRM организует</span> коммуникацию между сотрудниками компании</p>
+                                <p><span>CRM организует</span> коммуникацию между сотрудниками компании и автоматизирует административные бизнес процессы</p>
                             </div>
                         </div>
                     </div>
@@ -313,7 +315,7 @@
                 
             </div>
             <div class="container_content container_content-white" id="about">
-                <h2>О компании</h2>
+                <h2>О нас</h2>
                 <div class="row no-gutters justify-content-center">
                     <div class="col-xl-7 mb-5">
                         <p class="medium-text">
@@ -353,8 +355,8 @@
                                 <button type="submit"><div class="button-line"></div>Отправить</button> 
                             </form>
                             <h3>Или свяжитесь с нами</h3>
-                            <p class="medium-text text-right">Телефон: <a href="tel:+78005555555">8 (800) 555-55-55</a></p>
-                            <p class="medium-text text-right">E-mail: <a href="mailto:mail@1ditis.ru">mail@1ditis.ru</a></p>
+                            <p class="medium-text text-right">Телефон: <a href="tel:+74992816510">+7 (499) 281-65-10</a></p>
+                            <p class="medium-text text-right">E-mail: <a href="mailto:crm@1ditis.ru">crm@1ditis.ru</a></p>
                         </div>
                     </div>
                 </div>
@@ -378,40 +380,12 @@
     <footer class="footer_fix">
         <div class="footer_wrapper">
             <div class="footer_contact">
-                <a href="tel:+78005555555">8 (800) 555-55-55</a> | <a href="mailto:mail@1ditis.ru">mail@1ditis.ru</a>
+                <a href="tel:+74992816510">+7 (499) 281-65-10</a> | <a href="mailto:crm@1ditis.ru">crm@1ditis.ru</a>
             </div>
         </div>
     </footer>
 
     <script src="/js/script.js"></script>
-    <script src="/js/swiper.min.js"></script>
     <script src="/send_form.js"></script>
-
-    <!-- Initialize Swiper -->
-    <script>
-        var widthWind = window.innerWidth;
-        var temp = 1;
-        if(widthWind < 993){
-            temp = 1;
-        }else if(widthWind < 1200){
-            temp = 2;
-        }else{
-            temp = 3;
-        }
-
-        var swiper = new Swiper('.swiper-container', {
-        slidesPerView: temp,
-        spaceBetween: 30,
-        slidesPerGroup: 1,
-        pagination: {
-            el: '.swiper-pagination',
-            clickable: true,
-        },
-        navigation: {
-            nextEl: '.swiper-button-next',
-            prevEl: '.swiper-button-prev'
-        }
-        });
-    </script>
 </body>
 </html>
