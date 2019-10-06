@@ -357,6 +357,7 @@
                             <h3>Или свяжитесь с нами</h3>
                             <p class="medium-text text-right">Телефон: <a href="tel:+74992816510">+7 (499) 281-65-10</a></p>
                             <p class="medium-text text-right">E-mail: <a href="mailto:crm@1ditis.ru">crm@1ditis.ru</a></p>
+                            <p class="medium-text text-right">Адрес: <a>г. Сыктывкар, ул. Гаражная 9, офис 221</a></p>
                         </div>
                     </div>
                 </div>
