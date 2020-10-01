@@ -358,6 +358,7 @@
                             <p class="medium-text text-right">Телефон: <a href="tel:+74992816510">+7 (499) 281-65-10</a></p>
                             <p class="medium-text text-right">E-mail: <a href="mailto:crm@1ditis.ru">crm@1ditis.ru</a></p>
                             <p class="medium-text text-right">Адрес: <a>г. Нижний Новгород, ул. Волжская Набережная, д. 8, к. 1</a></p>
+                            <p class="medium-text text-right"><a>г. Сыктывкар, Гаражная 9, офис 221</a></p>
                         </div>
                     </div>
                 </div>
